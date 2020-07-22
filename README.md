@@ -1,0 +1,1 @@
+"browserslist" gets added automatically to the package.json through a prompt when you do npm start.

@@ -1,0 +1,42 @@
+{
+  "name": "memegen",
+  "version": "1.0.0",
+  "description": "Your favorite meme generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejaeger/memegen.git"
+  },
+  "author": "codejaeger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codejaeger/memegen/issues"
+  },
+  "homepage": "https://github.com/codejaeger/memegen#readme",
+  "devDependencies": {
+    "sass": "^1.26.10"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
